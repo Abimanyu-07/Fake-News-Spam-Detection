@@ -18,8 +18,7 @@ place them in `data/raw/`.
 - Expected file: `data/raw/spam.csv`
 - Columns: `v1` (label: `ham` or `spam`), `v2` (message), plus unnamed extra
   columns that are dropped during cleaning.
-- Encoding: **latin-1**. Loading it as UTF-8 raises a `UnicodeDecodeError`.
-
+  
 ## Known limitations of both datasets
 
 - News: labels describe the source or the collection process. They are not a
